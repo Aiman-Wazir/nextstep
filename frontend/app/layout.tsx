@@ -1,5 +1,11 @@
-import './globals.css'
 import type { Metadata } from 'next'
+
+// Try to import CSS, but don't crash if it fails
+try {
+  require('./globals.css')
+} catch (e) {
+  console.warn('CSS file not found, continuing...')
+}
 
 export const metadata: Metadata = {
   title: 'CareerPath AI',
