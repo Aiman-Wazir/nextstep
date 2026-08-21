@@ -1,0 +1,364 @@
+{
+  "skills": {
+    "python": {
+      "display_name": "Python",
+      "category": "Programming Languages",
+      "description": "Versatile programming language widely used in AI, data science, and web development"
+    },
+    "javascript": {
+      "display_name": "JavaScript",
+      "category": "Programming Languages",
+      "description": "Core language for web development and interactive applications"
+    },
+    "sql": {
+      "display_name": "SQL",
+      "category": "Databases",
+      "description": "Language for managing and querying relational databases"
+    },
+    "machine_learning": {
+      "display_name": "Machine Learning",
+      "category": "AI/ML",
+      "description": "Algorithms and models for learning from data"
+    },
+    "deep_learning": {
+      "display_name": "Deep Learning",
+      "category": "AI/ML",
+      "description": "Neural network-based learning for complex patterns"
+    },
+    "tensorflow": {
+      "display_name": "TensorFlow",
+      "category": "AI/ML Frameworks",
+      "description": "Google's open-source ML framework"
+    },
+    "pytorch": {
+      "display_name": "PyTorch",
+      "category": "AI/ML Frameworks",
+      "description": "Facebook's dynamic computation graph ML framework"
+    },
+    "react": {
+      "display_name": "React",
+      "category": "Frontend Frameworks",
+      "description": "Facebook's UI library for building user interfaces"
+    },
+    "nodejs": {
+      "display_name": "Node.js",
+      "category": "Backend Technologies",
+      "description": "JavaScript runtime for server-side development"
+    },
+    "docker": {
+      "display_name": "Docker",
+      "category": "DevOps",
+      "description": "Containerization platform for application packaging"
+    },
+    "kubernetes": {
+      "display_name": "Kubernetes",
+      "category": "DevOps",
+      "description": "Container orchestration platform"
+    },
+    "aws": {
+      "display_name": "AWS",
+      "category": "Cloud Platforms",
+      "description": "Amazon's comprehensive cloud computing platform"
+    },
+    "gcp": {
+      "display_name": "GCP",
+      "category": "Cloud Platforms",
+      "description": "Google's cloud computing platform"
+    },
+    "azure": {
+      "display_name": "Azure",
+      "category": "Cloud Platforms",
+      "description": "Microsoft's cloud computing platform"
+    },
+    "git": {
+      "display_name": "Git",
+      "category": "Development Tools",
+      "description": "Version control system for collaborative development"
+    },
+    "nlp": {
+      "display_name": "NLP",
+      "category": "AI/ML",
+      "description": "Natural Language Processing for text understanding"
+    },
+    "computer_vision": {
+      "display_name": "Computer Vision",
+      "category": "AI/ML",
+      "description": "Processing and understanding visual data"
+    },
+    "data_visualization": {
+      "display_name": "Data Visualization",
+      "category": "Data Analytics",
+      "description": "Creating visual representations of data"
+    },
+    "statistics": {
+      "display_name": "Statistics",
+      "category": "Mathematics",
+      "description": "Statistical methods for data analysis"
+    },
+    "rest_apis": {
+      "display_name": "REST APIs",
+      "category": "Backend Technologies",
+      "description": "Representational State Transfer APIs for web services"
+    },
+    "html_css": {
+      "display_name": "HTML/CSS",
+      "category": "Frontend Technologies",
+      "description": "Markup and styling languages for web development"
+    },
+    "typescript": {
+      "display_name": "TypeScript",
+      "category": "Programming Languages",
+      "description": "Type-safe superset of JavaScript"
+    },
+    "nextjs": {
+      "display_name": "Next.js",
+      "category": "Frontend Frameworks",
+      "description": "React framework for production apps"
+    },
+    "uiux": {
+      "display_name": "UI/UX Design",
+      "category": "Design",
+      "description": "User interface and experience design"
+    },
+    "linux": {
+      "display_name": "Linux",
+      "category": "Operating Systems",
+      "description": "Unix-like operating system"
+    },
+    "network_security": {
+      "display_name": "Network Security",
+      "category": "Cybersecurity",
+      "description": "Securing network infrastructure"
+    },
+    "firewalls": {
+      "display_name": "Firewalls",
+      "category": "Cybersecurity",
+      "description": "Network security systems"
+    },
+    "siem": {
+      "display_name": "SIEM",
+      "category": "Cybersecurity",
+      "description": "Security Information and Event Management"
+    },
+    "image_processing": {
+      "display_name": "Image Processing",
+      "category": "AI/ML",
+      "description": "Processing and analyzing digital images"
+    },
+    "opencv": {
+      "display_name": "OpenCV",
+      "category": "AI/ML Frameworks",
+      "description": "Open-source computer vision library"
+    },
+    "transformers": {
+      "display_name": "Transformers",
+      "category": "AI/ML",
+      "description": "Attention-based neural network architecture"
+    },
+    "llm_rag": {
+      "display_name": "LLM & RAG",
+      "category": "AI/ML",
+      "description": "Large Language Models and Retrieval-Augmented Generation"
+    },
+    "spacy": {
+      "display_name": "spaCy",
+      "category": "AI/ML Frameworks",
+      "description": "Industrial-strength NLP library"
+    },
+    "spark": {
+      "display_name": "Apache Spark",
+      "category": "Big Data",
+      "description": "Unified analytics engine for big data processing"
+    },
+    "hadoop": {
+      "display_name": "Hadoop",
+      "category": "Big Data",
+      "description": "Distributed storage and processing framework"
+    },
+    "airflow": {
+      "display_name": "Apache Airflow",
+      "category": "Data Engineering",
+      "description": "Workflow orchestration platform"
+    },
+    "kafka": {
+      "display_name": "Apache Kafka",
+      "category": "Data Engineering",
+      "description": "Distributed streaming platform"
+    },
+    "postgresql": {
+      "display_name": "PostgreSQL",
+      "category": "Databases",
+      "description": "Advanced relational database system"
+    },
+    "mongodb": {
+      "display_name": "MongoDB",
+      "category": "Databases",
+      "description": "Document-oriented NoSQL database"
+    },
+    "data_structures": {
+      "display_name": "Data Structures",
+      "category": "Computer Science",
+      "description": "Structures for organizing and storing data"
+    },
+    "algorithms": {
+      "display_name": "Algorithms",
+      "category": "Computer Science",
+      "description": "Step-by-step procedures for solving problems"
+    },
+    "product_management": {
+      "display_name": "Product Management",
+      "category": "Business",
+      "description": "Product development and management"
+    },
+    "figma": {
+      "display_name": "Figma",
+      "category": "Design Tools",
+      "description": "Collaborative design platform"
+    },
+    "tableau": {
+      "display_name": "Tableau",
+      "category": "Data Analytics",
+      "description": "Data visualization tool"
+    },
+    "power_bi": {
+      "display_name": "Power BI",
+      "category": "Data Analytics",
+      "description": "Business analytics service"
+    },
+    "scikit_learn": {
+      "display_name": "Scikit-Learn",
+      "category": "AI/ML Frameworks",
+      "description": "Machine learning library for Python"
+    },
+    "pandas": {
+      "display_name": "Pandas",
+      "category": "Data Science Tools",
+      "description": "Data manipulation and analysis library"
+    },
+    "data_preprocessing": {
+      "display_name": "Data Preprocessing",
+      "category": "Data Science",
+      "description": "Preparing raw data for analysis"
+    },
+    "excel": {
+      "display_name": "Excel",
+      "category": "Productivity Tools",
+      "description": "Spreadsheet software for data analysis"
+    },
+    "java": {
+      "display_name": "Java",
+      "category": "Programming Languages",
+      "description": "Object-oriented programming language"
+    },
+    "system_design": {
+      "display_name": "System Design",
+      "category": "Computer Science",
+      "description": "Designing scalable software systems"
+    },
+    "testing": {
+      "display_name": "Testing",
+      "category": "Software Engineering",
+      "description": "Software testing and quality assurance"
+    },
+    "vue": {
+      "display_name": "Vue.js",
+      "category": "Frontend Frameworks",
+      "description": "Progressive JavaScript framework"
+    },
+    "angular": {
+      "display_name": "Angular",
+      "category": "Frontend Frameworks",
+      "description": "TypeScript-based web framework"
+    },
+    "tailwind": {
+      "display_name": "Tailwind CSS",
+      "category": "Frontend Technologies",
+      "description": "Utility-first CSS framework"
+    },
+    "webpack": {
+      "display_name": "Webpack",
+      "category": "Build Tools",
+      "description": "JavaScript module bundler"
+    },
+    "storybook": {
+      "display_name": "Storybook",
+      "category": "Frontend Tools",
+      "description": "UI component development environment"
+    },
+    "terraform": {
+      "display_name": "Terraform",
+      "category": "DevOps",
+      "description": "Infrastructure as Code tool"
+    },
+    "jenkins": {
+      "display_name": "Jenkins",
+      "category": "DevOps",
+      "description": "Automation server for CI/CD"
+    },
+    "ansible": {
+      "display_name": "Ansible",
+      "category": "DevOps",
+      "description": "Configuration management tool"
+    },
+    "prometheus": {
+      "display_name": "Prometheus",
+      "category": "Monitoring",
+      "description": "Monitoring and alerting toolkit"
+    },
+    "grafana": {
+      "display_name": "Grafana",
+      "category": "Monitoring",
+      "description": "Observability platform"
+    },
+    "elk": {
+      "display_name": "ELK Stack",
+      "category": "Monitoring",
+      "description": "Elasticsearch, Logstash, Kibana"
+    },
+    "cryptography": {
+      "display_name": "Cryptography",
+      "category": "Cybersecurity",
+      "description": "Encryption and security techniques"
+    },
+    "penetration_testing": {
+      "display_name": "Penetration Testing",
+      "category": "Cybersecurity",
+      "description": "Security testing methodology"
+    },
+    "incident_response": {
+      "display_name": "Incident Response",
+      "category": "Cybersecurity",
+      "description": "Handling security incidents"
+    },
+    "risk_management": {
+      "display_name": "Risk Management",
+      "category": "Cybersecurity",
+      "description": "Identifying and managing security risks"
+    },
+    "r": {
+      "display_name": "R",
+      "category": "Programming Languages",
+      "description": "Language for statistical computing"
+    },
+    "mlflow": {
+      "display_name": "MLflow",
+      "category": "MLOps",
+      "description": "ML lifecycle management platform"
+    },
+    "graphql": {
+      "display_name": "GraphQL",
+      "category": "Backend Technologies",
+      "description": "API query language"
+    },
+    "redis": {
+      "display_name": "Redis",
+      "category": "Databases",
+      "description": "In-memory data structure store"
+    },
+    "kubernetes": {
+      "display_name": "Kubernetes",
+      "category": "DevOps",
+      "description": "Container orchestration platform"
+    }
+  }
+}

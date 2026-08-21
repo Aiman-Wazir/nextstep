@@ -1,0 +1,933 @@
+{
+  "careers": [
+    {
+      "id": "ai_engineer",
+      "name": "AI Engineer",
+      "category": "Artificial Intelligence",
+      "description": "Designs, develops, and deploys artificial intelligence systems and applications. Bridges research and production, turning AI models into scalable products.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "machine_learning": { "level": 4, "importance": "critical" },
+        "deep_learning": { "level": 4, "importance": "critical" },
+        "tensorflow": { "level": 3, "importance": "high" },
+        "pytorch": { "level": 3, "importance": "high" },
+        "nlp": { "level": 3, "importance": "high" },
+        "data_preprocessing": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "docker": { "level": 3, "importance": "medium" },
+        "kubernetes": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "git": { "level": 3, "importance": "medium" },
+        "llm_rag": { "level": 3, "importance": "high" },
+        "transformers": { "level": 3, "importance": "high" },
+        "computer_vision": { "level": 2, "importance": "medium" },
+        "mlflow": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Science",
+        "Software Engineering"
+      ],
+      "education_requirements": ["Computer Science", "Data Science", "AI/ML", "Software Engineering", "Mathematics"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "AI Engineer",
+        "Senior AI Engineer",
+        "AI Research Engineer",
+        "AI Product Engineer",
+        "Applied AI Scientist"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python for Data Science and AI",
+          "Introduction to Machine Learning (Andrew Ng)",
+          "Deep Learning Fundamentals"
+        ],
+        "intermediate": [
+          "TensorFlow Developer Certificate Preparation",
+          "PyTorch for Deep Learning",
+          "NLP with Transformers"
+        ],
+        "advanced": [
+          "Production AI Systems",
+          "LLM Engineering Course",
+          "AI Deployment and MLOps"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python Programming & Mathematics for AI",
+        "month_2": "Machine Learning Fundamentals",
+        "month_3": "Deep Learning Architectures",
+        "month_4": "TensorFlow & PyTorch Mastery",
+        "month_5": "NLP, Computer Vision, and LLMs",
+        "month_6": "AI Deployment & Production Engineering"
+      }
+    },
+    {
+      "id": "machine_learning_engineer",
+      "name": "Machine Learning Engineer",
+      "category": "Machine Learning",
+      "description": "Builds, trains, and deploys machine learning models at scale. Focuses on the infrastructure and engineering aspects of ML systems.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "machine_learning": { "level": 4, "importance": "critical" },
+        "deep_learning": { "level": 3, "importance": "high" },
+        "tensorflow": { "level": 3, "importance": "high" },
+        "pytorch": { "level": 3, "importance": "high" },
+        "sql": { "level": 3, "importance": "high" },
+        "data_preprocessing": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "docker": { "level": 3, "importance": "medium" },
+        "aws": { "level": 3, "importance": "medium" },
+        "git": { "level": 3, "importance": "medium" },
+        "kubernetes": { "level": 2, "importance": "medium" },
+        "mlflow": { "level": 3, "importance": "high" },
+        "scikit_learn": { "level": 3, "importance": "high" },
+        "pandas": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Machine Learning",
+        "Data Science",
+        "Software Engineering",
+        "Cloud Computing"
+      ],
+      "education_requirements": ["Computer Science", "Data Science", "AI/ML", "Software Engineering"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Lead"],
+      "job_roles": [
+        "ML Engineer",
+        "Senior ML Engineer",
+        "ML Infrastructure Engineer",
+        "ML Platform Engineer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python for Data Science",
+          "Machine Learning Crash Course",
+          "Data Science Fundamentals"
+        ],
+        "intermediate": [
+          "TensorFlow in Practice",
+          "ML Engineering for Production",
+          "Designing ML Systems"
+        ],
+        "advanced": [
+          "Production ML with TensorFlow",
+          "ML Pipelines and Automation",
+          "ML Infrastructure and Monitoring"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & Data Science Libraries",
+        "month_2": "ML Algorithms Deep Dive",
+        "month_3": "Deep Learning with TensorFlow/PyTorch",
+        "month_4": "ML Engineering Best Practices",
+        "month_5": "ML Pipelines & MLOps",
+        "month_6": "Production ML Systems"
+      }
+    },
+    {
+      "id": "data_scientist",
+      "name": "Data Scientist",
+      "category": "Data Science",
+      "description": "Extracts insights from complex data using statistical methods and machine learning. Drives business decisions through data-driven analysis.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "sql": { "level": 4, "importance": "critical" },
+        "statistics": { "level": 4, "importance": "critical" },
+        "machine_learning": { "level": 4, "importance": "critical" },
+        "data_visualization": { "level": 3, "importance": "high" },
+        "pandas": { "level": 4, "importance": "high" },
+        "data_preprocessing": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "deep_learning": { "level": 2, "importance": "medium" },
+        "spark": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "git": { "level": 2, "importance": "medium" },
+        "scikit_learn": { "level": 3, "importance": "high" },
+        "r": { "level": 2, "importance": "medium" },
+        "tableau": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Data Science",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Data Analytics",
+        "Statistics"
+      ],
+      "education_requirements": ["Data Science", "Statistics", "Mathematics", "Computer Science", "Economics"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Principal"],
+      "job_roles": [
+        "Data Scientist",
+        "Senior Data Scientist",
+        "Lead Data Scientist",
+        "Research Scientist"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Data Science Fundamentals",
+          "Python for Data Science",
+          "Statistical Thinking"
+        ],
+        "intermediate": [
+          "Machine Learning with Scikit-Learn",
+          "Data Visualization with Python",
+          "SQL for Data Science"
+        ],
+        "advanced": [
+          "Advanced Machine Learning",
+          "Time Series Analysis",
+          "Bayesian Statistics"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & Statistics Foundations",
+        "month_2": "Data Manipulation & Visualization",
+        "month_3": "SQL & Data Wrangling",
+        "month_4": "Machine Learning Algorithms",
+        "month_5": "Advanced ML & Deep Learning",
+        "month_6": "Data Science Project & Deployment"
+      }
+    },
+    {
+      "id": "data_analyst",
+      "name": "Data Analyst",
+      "category": "Data Analytics",
+      "description": "Transforms raw data into actionable insights through analysis and visualization. Creates reports and dashboards for business decision-making.",
+      "required_skills": {
+        "sql": { "level": 4, "importance": "critical" },
+        "data_visualization": { "level": 4, "importance": "critical" },
+        "excel": { "level": 4, "importance": "critical" },
+        "python": { "level": 3, "importance": "high" },
+        "statistics": { "level": 3, "importance": "high" },
+        "pandas": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "tableau": { "level": 3, "importance": "high" },
+        "power_bi": { "level": 3, "importance": "high" },
+        "r": { "level": 2, "importance": "medium" },
+        "git": { "level": 2, "importance": "low" },
+        "data_preprocessing": { "level": 3, "importance": "medium" }
+      },
+      "related_interests": [
+        "Data Analytics",
+        "Data Science",
+        "Business Intelligence",
+        "Statistics"
+      ],
+      "education_requirements": ["Data Analytics", "Statistics", "Business", "Economics", "Mathematics"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Data Analyst",
+        "Senior Data Analyst",
+        "Business Intelligence Analyst",
+        "Data Visualization Specialist"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "SQL Fundamentals",
+          "Excel for Data Analysis",
+          "Data Visualization Basics"
+        ],
+        "intermediate": [
+          "Python for Data Analysis",
+          "Advanced SQL",
+          "Tableau/Power BI Training"
+        ],
+        "advanced": [
+          "Data Storytelling",
+          "Advanced Analytics",
+          "Dashboard Design"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Excel & SQL Fundamentals",
+        "month_2": "Python for Data Analysis",
+        "month_3": "Data Visualization Tools",
+        "month_4": "Statistical Analysis",
+        "month_5": "Data Storytelling",
+        "month_6": "Advanced Analytics & Projects"
+      }
+    },
+    {
+      "id": "backend_developer",
+      "name": "Backend Developer",
+      "category": "Software Engineering",
+      "description": "Designs and implements server-side logic, APIs, and database systems. Ensures high performance, scalability, and security of web applications.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "sql": { "level": 4, "importance": "critical" },
+        "git": { "level": 4, "importance": "critical" },
+        "rest_apis": { "level": 4, "importance": "critical" },
+        "docker": { "level": 3, "importance": "high" },
+        "nodejs": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "aws": { "level": 3, "importance": "high" },
+        "postgresql": { "level": 3, "importance": "high" },
+        "mongodb": { "level": 3, "importance": "high" },
+        "kubernetes": { "level": 2, "importance": "medium" },
+        "redis": { "level": 2, "importance": "medium" },
+        "graphql": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Software Engineering",
+        "Web Development",
+        "Cloud Computing",
+        "Data Science"
+      ],
+      "education_requirements": ["Computer Science", "Software Engineering", "Information Technology"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Lead"],
+      "job_roles": [
+        "Backend Developer",
+        "Senior Backend Developer",
+        "Backend Team Lead",
+        "API Engineer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python Programming",
+          "SQL and Databases",
+          "Web Development Basics"
+        ],
+        "intermediate": [
+          "RESTful APIs with FastAPI/Django",
+          "Database Design and Optimization",
+          "Docker for Developers"
+        ],
+        "advanced": [
+          "Microservices Architecture",
+          "Distributed Systems",
+          "Backend Performance Optimization"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & Database Fundamentals",
+        "month_2": "Web Frameworks (FastAPI/Django)",
+        "month_3": "REST API Development",
+        "month_4": "Docker & DevOps Basics",
+        "month_5": "Cloud & Microservices",
+        "month_6": "System Design & Scalability"
+      }
+    },
+    {
+      "id": "full_stack_developer",
+      "name": "Full Stack Developer",
+      "category": "Software Engineering",
+      "description": "Builds complete web applications covering both frontend and backend. Manages the full development lifecycle from UI to database.",
+      "required_skills": {
+        "javascript": { "level": 4, "importance": "critical" },
+        "react": { "level": 4, "importance": "critical" },
+        "python": { "level": 3, "importance": "high" },
+        "sql": { "level": 3, "importance": "high" },
+        "git": { "level": 4, "importance": "critical" },
+        "rest_apis": { "level": 4, "importance": "critical" },
+        "html_css": { "level": 4, "importance": "critical" }
+      },
+      "recommended_skills": {
+        "nodejs": { "level": 3, "importance": "high" },
+        "docker": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "mongodb": { "level": 2, "importance": "medium" },
+        "typescript": { "level": 3, "importance": "high" },
+        "nextjs": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Web Development",
+        "Software Engineering",
+        "UI/UX",
+        "Cloud Computing"
+      ],
+      "education_requirements": ["Computer Science", "Software Engineering", "Information Technology"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Full Stack Developer",
+        "Senior Full Stack Developer",
+        "Full Stack Team Lead",
+        "Web Developer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "HTML & CSS Fundamentals",
+          "JavaScript Basics",
+          "Python Programming"
+        ],
+        "intermediate": [
+          "React and Next.js",
+          "Backend Development with Python",
+          "Database Integration"
+        ],
+        "advanced": [
+          "Full Stack Architecture",
+          "Performance Optimization",
+          "Security Best Practices"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "HTML, CSS & JavaScript",
+        "month_2": "React & Frontend Development",
+        "month_3": "Backend & API Development",
+        "month_4": "Database & Integration",
+        "month_5": "DevOps & Deployment",
+        "month_6": "Full Stack Projects & Architecture"
+      }
+    },
+    {
+      "id": "frontend_developer",
+      "name": "Frontend Developer",
+      "category": "Software Engineering",
+      "description": "Creates user interfaces and experiences for web applications. Focuses on responsive design, performance, and accessibility.",
+      "required_skills": {
+        "javascript": { "level": 4, "importance": "critical" },
+        "react": { "level": 4, "importance": "critical" },
+        "html_css": { "level": 4, "importance": "critical" },
+        "git": { "level": 4, "importance": "critical" },
+        "uiux": { "level": 3, "importance": "high" },
+        "typescript": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "nextjs": { "level": 3, "importance": "high" },
+        "vue": { "level": 2, "importance": "medium" },
+        "angular": { "level": 2, "importance": "medium" },
+        "tailwind": { "level": 3, "importance": "high" },
+        "webpack": { "level": 2, "importance": "medium" },
+        "storybook": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Web Development",
+        "UI/UX",
+        "Software Engineering",
+        "Design"
+      ],
+      "education_requirements": ["Computer Science", "Software Engineering", "Web Design", "Information Technology"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Frontend Developer",
+        "Senior Frontend Developer",
+        "UI Engineer",
+        "React Developer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "HTML & CSS Complete Guide",
+          "JavaScript Fundamentals",
+          "Responsive Web Design"
+        ],
+        "intermediate": [
+          "React & React Hooks",
+          "State Management",
+          "TypeScript for Frontend"
+        ],
+        "advanced": [
+          "Next.js & SSR",
+          "Performance Optimization",
+          "Frontend Testing"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "HTML, CSS & JavaScript",
+        "month_2": "Advanced JavaScript & ES6",
+        "month_3": "React Framework",
+        "month_4": "State Management & TypeScript",
+        "month_5": "Next.js & SSR",
+        "month_6": "Performance & Best Practices"
+      }
+    },
+    {
+      "id": "cloud_engineer",
+      "name": "Cloud Engineer",
+      "category": "Cloud Computing",
+      "description": "Designs, implements, and manages cloud infrastructure and services. Ensures cloud solutions are secure, scalable, and cost-efficient.",
+      "required_skills": {
+        "aws": { "level": 4, "importance": "critical" },
+        "docker": { "level": 4, "importance": "critical" },
+        "linux": { "level": 4, "importance": "critical" },
+        "kubernetes": { "level": 3, "importance": "high" },
+        "git": { "level": 4, "importance": "critical" },
+        "python": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "terraform": { "level": 3, "importance": "high" },
+        "azure": { "level": 3, "importance": "high" },
+        "gcp": { "level": 3, "importance": "high" },
+        "jenkins": { "level": 2, "importance": "medium" },
+        "ansible": { "level": 2, "importance": "medium" },
+        "prometheus": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Cloud Computing",
+        "DevOps",
+        "Software Engineering",
+        "Cybersecurity"
+      ],
+      "education_requirements": ["Computer Science", "Information Technology", "Cloud Computing"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Lead"],
+      "job_roles": [
+        "Cloud Engineer",
+        "Senior Cloud Engineer",
+        "Cloud Architect",
+        "Cloud Infrastructure Engineer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "AWS Fundamentals",
+          "Linux Basics",
+          "Networking Basics"
+        ],
+        "intermediate": [
+          "AWS Certification Preparation",
+          "Docker Deep Dive",
+          "Kubernetes Fundamentals"
+        ],
+        "advanced": [
+          "Cloud Architecture Design",
+          "Multi-cloud Strategies",
+          "Cloud Security & Compliance"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Linux & Networking Basics",
+        "month_2": "AWS Core Services",
+        "month_3": "Docker & Containerization",
+        "month_4": "Kubernetes Orchestration",
+        "month_5": "Infrastructure as Code (Terraform)",
+        "month_6": "Cloud Architecture & Security"
+      }
+    },
+    {
+      "id": "devops_engineer",
+      "name": "DevOps Engineer",
+      "category": "DevOps",
+      "description": "Bridges development and operations teams. Automates deployment, manages CI/CD pipelines, and ensures system reliability.",
+      "required_skills": {
+        "docker": { "level": 4, "importance": "critical" },
+        "kubernetes": { "level": 4, "importance": "critical" },
+        "git": { "level": 4, "importance": "critical" },
+        "aws": { "level": 3, "importance": "high" },
+        "linux": { "level": 4, "importance": "critical" },
+        "python": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "jenkins": { "level": 3, "importance": "high" },
+        "ansible": { "level": 3, "importance": "high" },
+        "terraform": { "level": 3, "importance": "high" },
+        "prometheus": { "level": 2, "importance": "medium" },
+        "grafana": { "level": 2, "importance": "medium" },
+        "elk": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "DevOps",
+        "Cloud Computing",
+        "Software Engineering",
+        "Cybersecurity"
+      ],
+      "education_requirements": ["Computer Science", "Information Technology", "Software Engineering"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Lead"],
+      "job_roles": [
+        "DevOps Engineer",
+        "Senior DevOps Engineer",
+        "Site Reliability Engineer",
+        "DevOps Team Lead"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Linux Administration",
+          "Git & Version Control",
+          "Networking Fundamentals"
+        ],
+        "intermediate": [
+          "Docker & Kubernetes",
+          "CI/CD Pipelines",
+          "Configuration Management"
+        ],
+        "advanced": [
+          "Kubernetes Production Patterns",
+          "Service Mesh & Istio",
+          "Observability & Monitoring"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Linux & Networking",
+        "month_2": "Docker & Containers",
+        "month_3": "Kubernetes Orchestration",
+        "month_4": "CI/CD & Automation",
+        "month_5": "Monitoring & Observability",
+        "month_6": "DevOps Culture & Best Practices"
+      }
+    },
+    {
+      "id": "cybersecurity_analyst",
+      "name": "Cybersecurity Analyst",
+      "category": "Cybersecurity",
+      "description": "Protects organizational systems from security threats. Monitors, detects, and responds to cyber incidents.",
+      "required_skills": {
+        "network_security": { "level": 4, "importance": "critical" },
+        "linux": { "level": 4, "importance": "critical" },
+        "python": { "level": 3, "importance": "high" },
+        "firewalls": { "level": 4, "importance": "critical" },
+        "git": { "level": 3, "importance": "medium" },
+        "siem": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "cryptography": { "level": 3, "importance": "high" },
+        "aws": { "level": 2, "importance": "medium" },
+        "docker": { "level": 2, "importance": "medium" },
+        "penetration_testing": { "level": 2, "importance": "medium" },
+        "incident_response": { "level": 3, "importance": "high" },
+        "risk_management": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Cybersecurity",
+        "Cloud Computing",
+        "Software Engineering",
+        "Network Security"
+      ],
+      "education_requirements": ["Cybersecurity", "Information Technology", "Computer Science", "Network Security"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Cybersecurity Analyst",
+        "Security Engineer",
+        "Penetration Tester",
+        "Incident Responder"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Network Fundamentals",
+          "Linux Security Basics",
+          "Cybersecurity 101"
+        ],
+        "intermediate": [
+          "Security+, CISSP Prep",
+          "Penetration Testing Basics",
+          "Cloud Security"
+        ],
+        "advanced": [
+          "Advanced Incident Response",
+          "Security Architecture",
+          "Threat Intelligence"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Network & Linux Security",
+        "month_2": "Security Fundamentals & Tools",
+        "month_3": "Threat Detection & Analysis",
+        "month_4": "Incident Response & Forensics",
+        "month_5": "Cloud & Application Security",
+        "month_6": "Advanced Security Operations"
+      }
+    },
+    {
+      "id": "computer_vision_engineer",
+      "name": "Computer Vision Engineer",
+      "category": "Artificial Intelligence",
+      "description": "Develops systems that can interpret and understand visual data from the real world. Works on image and video analysis applications.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "computer_vision": { "level": 4, "importance": "critical" },
+        "deep_learning": { "level": 4, "importance": "critical" },
+        "tensorflow": { "level": 3, "importance": "high" },
+        "pytorch": { "level": 3, "importance": "high" },
+        "image_processing": { "level": 4, "importance": "critical" },
+        "machine_learning": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "opencv": { "level": 4, "importance": "high" },
+        "docker": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "git": { "level": 3, "importance": "medium" },
+        "nlp": { "level": 2, "importance": "medium" },
+        "mlflow": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Computer Vision",
+        "Data Science"
+      ],
+      "education_requirements": ["Computer Science", "AI/ML", "Data Science", "Electrical Engineering"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Computer Vision Engineer",
+        "Senior CV Engineer",
+        "Computer Vision Researcher",
+        "Image Processing Engineer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python for CV",
+          "Image Processing Fundamentals",
+          "CNN Basics"
+        ],
+        "intermediate": [
+          "OpenCV Mastery",
+          "Deep Learning for CV",
+          "Object Detection & Segmentation"
+        ],
+        "advanced": [
+          "3D Vision & Structure from Motion",
+          "Video Analysis",
+          "CV Model Optimization"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & Image Processing",
+        "month_2": "OpenCV & Feature Detection",
+        "month_3": "CNN & Deep Learning",
+        "month_4": "Advanced CV Techniques",
+        "month_5": "Object Detection & Tracking",
+        "month_6": "CV Production & Deployment"
+      }
+    },
+    {
+      "id": "nlp_engineer",
+      "name": "NLP Engineer",
+      "category": "Artificial Intelligence",
+      "description": "Builds systems that understand, interpret, and generate human language. Works on applications like chatbots, translation, and text analysis.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "nlp": { "level": 4, "importance": "critical" },
+        "deep_learning": { "level": 4, "importance": "critical" },
+        "tensorflow": { "level": 3, "importance": "high" },
+        "pytorch": { "level": 3, "importance": "high" },
+        "machine_learning": { "level": 3, "importance": "high" },
+        "transformers": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "llm_rag": { "level": 3, "importance": "high" },
+        "docker": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "git": { "level": 3, "importance": "medium" },
+        "computer_vision": { "level": 2, "importance": "medium" },
+        "spacy": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "NLP",
+        "Data Science"
+      ],
+      "education_requirements": ["Computer Science", "AI/ML", "Computational Linguistics", "Data Science"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "NLP Engineer",
+        "Senior NLP Engineer",
+        "NLP Research Scientist",
+        "Conversational AI Engineer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python for NLP",
+          "NLP Fundamentals",
+          "Text Processing Basics"
+        ],
+        "intermediate": [
+          "Transformers & Attention",
+          "BERT & GPT Models",
+          "NLP with Deep Learning"
+        ],
+        "advanced": [
+          "LLM Fine-tuning",
+          "RAG Systems",
+          "NLP Production Systems"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & NLP Basics",
+        "month_2": "Text Processing & Embeddings",
+        "month_3": "Neural Networks for NLP",
+        "month_4": "Transformers & LLMs",
+        "month_5": "Advanced NLP Techniques",
+        "month_6": "NLP Systems & Deployment"
+      }
+    },
+    {
+      "id": "data_engineer",
+      "name": "Data Engineer",
+      "category": "Data Engineering",
+      "description": "Builds and maintains data pipelines and infrastructure. Ensures reliable, efficient data flow for analytics and ML teams.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "sql": { "level": 4, "importance": "critical" },
+        "aws": { "level": 3, "importance": "high" },
+        "spark": { "level": 3, "importance": "high" },
+        "data_preprocessing": { "level": 4, "importance": "critical" },
+        "git": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "hadoop": { "level": 2, "importance": "medium" },
+        "docker": { "level": 2, "importance": "medium" },
+        "kubernetes": { "level": 2, "importance": "medium" },
+        "airflow": { "level": 3, "importance": "high" },
+        "kafka": { "level": 3, "importance": "high" },
+        "postgresql": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Data Science",
+        "Cloud Computing",
+        "Software Engineering",
+        "Data Analytics"
+      ],
+      "education_requirements": ["Computer Science", "Data Engineering", "Software Engineering", "Information Technology"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "Data Engineer",
+        "Senior Data Engineer",
+        "Data Platform Engineer",
+        "ETL Developer"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python & SQL",
+          "Data Fundamentals",
+          "Database Design"
+        ],
+        "intermediate": [
+          "Big Data Technologies",
+          "ETL Pipelines",
+          "Cloud Data Platforms"
+        ],
+        "advanced": [
+          "Data Streaming",
+          "Data Warehousing",
+          "Data Governance"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & SQL Mastery",
+        "month_2": "Database Design & Optimization",
+        "month_3": "ETL & Data Pipelines",
+        "month_4": "Big Data (Spark, Hadoop)",
+        "month_5": "Cloud Data Services",
+        "month_6": "Data Engineering Projects"
+      }
+    },
+    {
+      "id": "software_engineer",
+      "name": "Software Engineer",
+      "category": "Software Engineering",
+      "description": "Designs, develops, and maintains software applications. Applies engineering principles throughout the software development lifecycle.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "java": { "level": 3, "importance": "high" },
+        "javascript": { "level": 3, "importance": "high" },
+        "git": { "level": 4, "importance": "critical" },
+        "data_structures": { "level": 4, "importance": "critical" },
+        "algorithms": { "level": 4, "importance": "critical" },
+        "sql": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "docker": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "react": { "level": 2, "importance": "medium" },
+        "nodejs": { "level": 2, "importance": "medium" },
+        "system_design": { "level": 3, "importance": "high" },
+        "testing": { "level": 3, "importance": "high" }
+      },
+      "related_interests": [
+        "Software Engineering",
+        "Web Development",
+        "Mobile Development",
+        "Cloud Computing"
+      ],
+      "education_requirements": ["Computer Science", "Software Engineering", "Information Technology"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior", "Lead", "Principal"],
+      "job_roles": [
+        "Software Engineer",
+        "Senior Software Engineer",
+        "Engineering Manager",
+        "Software Architect"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Programming Fundamentals",
+          "Data Structures & Algorithms",
+          "Version Control with Git"
+        ],
+        "intermediate": [
+          "Object-Oriented Design",
+          "Software Design Patterns",
+          "Database Integration"
+        ],
+        "advanced": [
+          "System Architecture",
+          "Performance Optimization",
+          "Engineering Leadership"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Programming Fundamentals",
+        "month_2": "Data Structures & Algorithms",
+        "month_3": "Software Design Patterns",
+        "month_4": "Database & Backend Development",
+        "month_5": "System Design & Architecture",
+        "month_6": "Full Project & Engineering Practices"
+      }
+    },
+    {
+      "id": "ai_product_engineer",
+      "name": "AI Product Engineer",
+      "category": "Artificial Intelligence",
+      "description": "Bridges AI technology and product development. Builds AI-powered products with a focus on user experience and business impact.",
+      "required_skills": {
+        "python": { "level": 4, "importance": "critical" },
+        "machine_learning": { "level": 4, "importance": "critical" },
+        "product_management": { "level": 3, "importance": "high" },
+        "react": { "level": 3, "importance": "high" },
+        "uiux": { "level": 3, "importance": "high" },
+        "rest_apis": { "level": 4, "importance": "critical" },
+        "git": { "level": 3, "importance": "high" }
+      },
+      "recommended_skills": {
+        "docker": { "level": 2, "importance": "medium" },
+        "aws": { "level": 2, "importance": "medium" },
+        "nlp": { "level": 2, "importance": "medium" },
+        "computer_vision": { "level": 2, "importance": "medium" },
+        "nextjs": { "level": 3, "importance": "high" },
+        "figma": { "level": 2, "importance": "medium" }
+      },
+      "related_interests": [
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Product Management",
+        "Software Engineering",
+        "UI/UX"
+      ],
+      "education_requirements": ["Computer Science", "AI/ML", "Software Engineering", "Product Design"],
+      "experience_levels": ["Junior", "Mid-Level", "Senior"],
+      "job_roles": [
+        "AI Product Engineer",
+        "Senior AI Product Engineer",
+        "AI Product Manager",
+        "Technical Product Manager"
+      ],
+      "learning_resources": {
+        "beginner": [
+          "Python for AI",
+          "Product Management Basics",
+          "UI/UX Fundamentals"
+        ],
+        "intermediate": [
+          "Machine Learning for Products",
+          "Full Stack Development",
+          "Product Analytics"
+        ],
+        "advanced": [
+          "AI Product Strategy",
+          "Product-Led Growth",
+          "AI Ethics and Governance"
+        ]
+      },
+      "learning_roadmap": {
+        "month_1": "Python & Product Fundamentals",
+        "month_2": "ML & AI Basics",
+        "month_3": "Product Management & UX",
+        "month_4": "Full Stack Development",
+        "month_5": "AI Product Building",
+        "month_6": "Product Launch & Strategy"
+      }
+    }
+  ]
+}
