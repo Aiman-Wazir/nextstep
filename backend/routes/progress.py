@@ -1,7 +1,6 @@
-from fastapi import APIRouter, HTTPException, Depends
+from fastapi import APIRouter, HTTPException
 from pydantic import BaseModel
 from typing import Dict, Optional
-from datetime import datetime
 from services.firebase_service import FirebaseService
 
 router = APIRouter()
@@ -15,18 +14,20 @@ class ProgressUpdate(BaseModel):
 
 @router.get("/{user_id}")
 async def get_progress(user_id: str):
-    """Get user's learning progress"""
+    """Get user's learning progress (Mock version)"""
     try:
         progress = await firebase_service.get_learning_progress(user_id)
-        if not progress:
-            return {"user_id": user_id, "progress": 0, "message": "No progress found"}
-        return progress
+        return {
+            "user_id": user_id, 
+            "progress": progress or {"message": "No progress data available"},
+            "note": "Firebase is disabled. This is mock data."
+        }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
 @router.post("/{user_id}")
 async def update_progress(user_id: str, update: ProgressUpdate):
-    """Update learning progress"""
+    """Update learning progress (Mock version)"""
     try:
         if update.skill:
             success = await firebase_service.update_skill_progress(
@@ -38,7 +39,7 @@ async def update_progress(user_id: str, update: ProgressUpdate):
             )
         
         if success:
-            return {"message": "Progress updated successfully"}
+            return {"message": "Progress updated successfully (Mock)", "note": "Firebase is disabled"}
         else:
             raise HTTPException(status_code=500, detail="Failed to update progress")
     except Exception as e:
@@ -46,9 +47,9 @@ async def update_progress(user_id: str, update: ProgressUpdate):
 
 @router.get("/{user_id}/summary")
 async def get_progress_summary(user_id: str):
-    """Get progress summary"""
+    """Get progress summary (Mock version)"""
     try:
         summary = await firebase_service.get_progress_summary(user_id)
-        return summary
+        return {**summary, "note": "Firebase is disabled. This is mock data."}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

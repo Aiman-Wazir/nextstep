@@ -1,37 +1,23 @@
-from fastapi import APIRouter, HTTPException, Depends
-from typing import List
+﻿from fastapi import APIRouter, HTTPException
+from models.recommendation import RecommendationRequest
+from services.recommendation_service import RecommendationService
 import logging
 
-from models.recommendation import RecommendationRequest, RecommendationResponse
-from services.recommendation_service import RecommendationService
-from dependencies import get_recommendation_service
-
 router = APIRouter()
+service = RecommendationService()
 logger = logging.getLogger(__name__)
 
-@router.post("/", response_model=RecommendationResponse)
-async def get_recommendations(
-    request: RecommendationRequest,
-    service: RecommendationService = Depends(get_recommendation_service)
-):
-    """
-    Get career recommendations based on user profile
-    
-    - **skills**: Dictionary of skill names and proficiency levels (1-5)
-    - **interests**: List of interests
-    - **education**: Education field
-    - **experience_level**: Experience level (0-3)
-    - **career_preferences**: Optional career preferences
-    """
+@router.post("/")
+async def get_recommendations(request: RecommendationRequest):
+    '''Get career recommendations based on user profile'''
     try:
         recommendations = await service.get_recommendations(
             skills=request.skills,
             interests=request.interests,
             education=request.education,
-            experience_level=request.experience_level,
-            career_preferences=request.career_preferences
+            experience_level=request.experience_level
         )
-        return RecommendationResponse(recommendations=recommendations)
+        return {"recommendations": recommendations}
     except Exception as e:
         logger.error(f"Error getting recommendations: {str(e)}")
         raise HTTPException(status_code=500, detail=str(e))
