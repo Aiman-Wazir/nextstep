@@ -6,7 +6,6 @@ class RecommendationRequest(BaseModel):
     interests: List[str]
     education: str
     experience_level: int
-    career_preferences: Optional[Dict] = None
 
 class Recommendation(BaseModel):
     career_id: str
