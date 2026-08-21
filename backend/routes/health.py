@@ -4,5 +4,5 @@ router = APIRouter()
 
 @router.get("/")
 async def health_check():
-    '''Health check endpoint'''
+    """Health check endpoint"""
     return {"status": "healthy", "message": "CareerPath AI API is running"}
