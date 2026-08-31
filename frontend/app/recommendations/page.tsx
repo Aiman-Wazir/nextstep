@@ -34,9 +34,9 @@ export default function RecommendationsPage() {
   }, []);
 
   const getMatchColor = (score: number) => {
-    if (score >= 70) return 'text-emerald-600';
-    if (score >= 50) return 'text-amber-600';
-    return 'text-gray-500';
+    if (score >= 70) return 'text-rose-600';
+    if (score >= 50) return 'text-primary-600';
+    return 'text-primary-400';
   };
 
   const getMatchCircleColor = (score: number) => {
@@ -47,10 +47,10 @@ export default function RecommendationsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-gray-50">
+      <div className="min-h-screen flex items-center justify-center bg-primary-50">
         <div className="text-center">
           <div className="spinner mx-auto"></div>
-          <p className="mt-4 text-gray-500">Loading your recommendations...</p>
+          <p className="mt-4 text-primary-500">Loading your recommendations...</p>
         </div>
       </div>
     );
@@ -58,11 +58,11 @@ export default function RecommendationsPage() {
 
   if (recommendations.length === 0) {
     return (
-      <main className="min-h-screen bg-gray-50 py-12">
+      <main className="min-h-screen bg-primary-50 py-12">
         <div className="container max-w-4xl">
           <div className="card text-center py-16">
             <h1 className="section-title mb-4">No Recommendations Found</h1>
-            <p className="text-gray-500 mb-6">
+            <p className="text-primary-500 mb-6">
               Complete your profile to get personalized career recommendations.
             </p>
             <Link href="/profile" className="btn-primary">
@@ -75,7 +75,7 @@ export default function RecommendationsPage() {
   }
 
   return (
-    <main className="min-h-screen bg-gray-50 py-8">
+    <main className="min-h-screen bg-primary-50 py-8">
       <div className="container max-w-7xl">
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
@@ -91,7 +91,7 @@ export default function RecommendationsPage() {
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Sidebar - Career List */}
           <div className="lg:col-span-1 space-y-2">
-            <div className="text-sm text-gray-500 mb-3 font-medium">
+            <div className="text-sm text-primary-500 mb-3 font-medium">
               Showing {recommendations.length} careers
             </div>
             {recommendations.map((rec) => (
@@ -100,19 +100,19 @@ export default function RecommendationsPage() {
                 onClick={() => setSelectedCareer(rec)}
                 className={`group p-4 rounded-xl cursor-pointer transition-all duration-200 ${
                   selectedCareer?.career_id === rec.career_id
-                    ? 'bg-blue-600 text-white shadow-lg'
-                    : 'bg-white hover:bg-gray-50 shadow-sm border border-gray-100/80'
+                    ? 'bg-primary-800 text-white shadow-lg'
+                    : 'bg-white hover:bg-primary-50 shadow-sm border border-primary-200/80'
                 }`}
               >
                 <div className="flex items-start justify-between">
                   <div>
                     <h3 className={`font-semibold text-sm ${
-                      selectedCareer?.career_id === rec.career_id ? 'text-white' : 'text-gray-900'
+                      selectedCareer?.career_id === rec.career_id ? 'text-white' : 'text-primary-900'
                     }`}>
                       {rec.career_name}
                     </h3>
                     <span className={`text-xs ${
-                      selectedCareer?.career_id === rec.career_id ? 'text-white/70' : 'text-gray-500'
+                      selectedCareer?.career_id === rec.career_id ? 'text-white/70' : 'text-primary-500'
                     }`}>
                       {rec.category}
                     </span>
@@ -135,25 +135,25 @@ export default function RecommendationsPage() {
               <div className="card">
                 <div className="flex flex-col sm:flex-row sm:items-start justify-between gap-4 mb-6">
                   <div>
-                    <h2 className="text-2xl font-bold text-gray-900">{selectedCareer.career_name}</h2>
+                    <h2 className="text-2xl font-bold text-primary-900">{selectedCareer.career_name}</h2>
                     <div className="flex flex-wrap items-center gap-2 mt-2">
-                      <span className="badge-blue">{selectedCareer.category}</span>
+                      <span className="badge-rose">{selectedCareer.category}</span>
                     </div>
                   </div>
                   <div className="flex flex-col items-center">
                     <div className={`match-circle ${getMatchCircleColor(selectedCareer.match_score)} text-lg`}>
                       {selectedCareer.match_score}%
                     </div>
-                    <span className="text-xs text-gray-500 mt-1">Match Score</span>
+                    <span className="text-xs text-primary-500 mt-1">Match Score</span>
                   </div>
                 </div>
 
-                <p className="text-gray-600 leading-relaxed mb-6">{selectedCareer.description}</p>
+                <p className="text-primary-600 leading-relaxed mb-6">{selectedCareer.description}</p>
 
                 {selectedCareer.explanation && (
-                  <div className="bg-blue-50/70 rounded-xl p-5 mb-6 border border-blue-100/50">
-                    <h3 className="font-semibold text-blue-900 text-sm mb-2">Why this career?</h3>
-                    <p className="text-blue-800 text-sm leading-relaxed whitespace-pre-wrap">
+                  <div className="bg-rose-50/70 rounded-xl p-5 mb-6 border border-rose-100/50">
+                    <h3 className="font-semibold text-rose-900 text-sm mb-2">Why this career?</h3>
+                    <p className="text-rose-800 text-sm leading-relaxed whitespace-pre-wrap">
                       {selectedCareer.explanation}
                     </p>
                   </div>
@@ -176,8 +176,8 @@ export default function RecommendationsPage() {
               </div>
             ) : (
               <div className="card text-center py-16">
-                <p className="text-gray-500">Select a career from the list</p>
-                <p className="text-gray-400 text-sm mt-1">to view detailed information</p>
+                <p className="text-primary-500">Select a career from the list</p>
+                <p className="text-primary-400 text-sm mt-1">to view detailed information</p>
               </div>
             )}
           </div>

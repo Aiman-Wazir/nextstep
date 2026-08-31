@@ -8,8 +8,8 @@ try {
 }
 
 export const metadata: Metadata = {
-  title: 'CareerPath AI',
-  description: 'AI-powered career recommendation platform',
+  title: 'NextStep',
+  description: 'Your next career step, powered by AI',
 }
 
 export default function RootLayout({

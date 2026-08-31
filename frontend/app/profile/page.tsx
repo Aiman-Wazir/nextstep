@@ -106,7 +106,7 @@ export default function ProfilePage() {
   };
 
   return (
-    <main className="min-h-screen bg-gray-50 py-8">
+    <main className="min-h-screen bg-primary-50 py-8">
       <div className="container max-w-4xl">
         <div className="mb-8">
           <h1 className="section-title">Create Your Profile</h1>
@@ -116,7 +116,7 @@ export default function ProfilePage() {
         <form onSubmit={handleSubmit} className="space-y-6">
           {/* Personal Info */}
           <div className="card">
-            <h2 className="text-base font-semibold text-gray-900 mb-4">Personal Information</h2>
+            <h2 className="text-base font-semibold text-primary-900 mb-4">Personal Information</h2>
             
             <div className="space-y-4">
               <div>
@@ -164,27 +164,27 @@ export default function ProfilePage() {
 
           {/* Skills */}
           <div className="card">
-            <h2 className="text-base font-semibold text-gray-900 mb-2">Technical Skills</h2>
-            <p className="text-sm text-gray-500 mb-4">Rate your proficiency from 1 (Beginner) to 5 (Expert)</p>
+            <h2 className="text-base font-semibold text-primary-900 mb-2">Technical Skills</h2>
+            <p className="text-sm text-primary-500 mb-4">Rate your proficiency from 1 (Beginner) to 5 (Expert)</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {SKILLS.map(skill => (
                 <div key={skill} className="flex items-center gap-3 group">
-                  <span className="text-sm font-medium text-gray-700 w-28 truncate">{skill}</span>
+                  <span className="text-sm font-medium text-primary-700 w-28 truncate">{skill}</span>
                   <input
                     type="range"
                     min="0"
                     max="5"
                     value={formData.skills[skill] || 0}
                     onChange={(e) => handleSkillChange(skill, parseInt(e.target.value))}
-                    className="flex-1 h-1.5 bg-gray-200 rounded-full appearance-none cursor-pointer"
+                    className="flex-1 h-1.5 rounded-full appearance-none cursor-pointer"
                     style={{
                       background: formData.skills[skill] && formData.skills[skill] > 0 
-                        ? `linear-gradient(to right, #2563eb 0%, #2563eb ${(formData.skills[skill] / 5) * 100}%, #e5e7eb ${(formData.skills[skill] / 5) * 100}%, #e5e7eb 100%)`
-                        : '#e5e7eb'
+                        ? `linear-gradient(to right, #BE185D 0%, #BE185D ${(formData.skills[skill] / 5) * 100}%, #E2E8F0 ${(formData.skills[skill] / 5) * 100}%, #E2E8F0 100%)`
+                        : '#E2E8F0'
                     }}
                   />
-                  <span className="text-sm font-medium text-blue-600 w-8 text-center bg-blue-50 rounded-lg px-2 py-0.5 group-hover:bg-blue-100 transition">
+                  <span className="text-sm font-medium text-rose-600 w-8 text-center bg-rose-50 rounded-lg px-2 py-0.5 group-hover:bg-rose-100 transition">
                     {formData.skills[skill] || 0}
                   </span>
                 </div>
@@ -194,8 +194,8 @@ export default function ProfilePage() {
 
           {/* Interests */}
           <div className="card">
-            <h2 className="text-base font-semibold text-gray-900 mb-2">Interests</h2>
-            <p className="text-sm text-gray-500 mb-4">Select all that apply</p>
+            <h2 className="text-base font-semibold text-primary-900 mb-2">Interests</h2>
+            <p className="text-sm text-primary-500 mb-4">Select all that apply</p>
             
             <div className="flex flex-wrap gap-2">
               {INTERESTS.map(interest => (
@@ -205,8 +205,8 @@ export default function ProfilePage() {
                   onClick={() => handleInterestToggle(interest)}
                   className={`px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200 ${
                     formData.interests.includes(interest)
-                      ? 'bg-blue-600 text-white shadow-sm hover:bg-blue-700'
-                      : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+                      ? 'bg-primary-800 text-white shadow-sm hover:bg-primary-900'
+                      : 'bg-primary-100 text-primary-700 hover:bg-primary-200'
                   }`}
                 >
                   {interest}
@@ -217,7 +217,7 @@ export default function ProfilePage() {
 
           {/* Error */}
           {error && (
-            <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded-xl text-sm">
+            <div className="bg-rose-50 border border-rose-200 text-rose-700 px-4 py-3 rounded-xl text-sm">
               {error}
             </div>
           )}

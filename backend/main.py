@@ -25,7 +25,7 @@ app.include_router(skill_gap.router, prefix="/api/v1/skill-gap", tags=["skill-ga
 
 @app.get("/")
 async def root():
-    return {"message": "CareerPath AI API", "docs": "/docs"}
+    return {"message": "NextStep API", "docs": "/docs"}
 
 @app.get("/api/v1/health")
 async def health_check():
