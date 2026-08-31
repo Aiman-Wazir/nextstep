@@ -1,133 +1,182 @@
-# 🚀 CareerPath AI
+# CareerPath AI
 
-<div align="center">
+## AI-Powered Career Recommendation and Learning Platform
 
-### AI-Powered Career Recommendation & Learning Roadmap Platform
+CareerPath AI is a full-stack AI-powered platform designed to help students, interns, and aspiring professionals identify technology career paths that align with their skills, interests, education, and experience.
 
-*Helping students and professionals discover suitable career paths through intelligent skill analysis, career matching, and personalized learning roadmaps.*
+The platform combines a TensorFlow-based recommendation model with AI-powered guidance to transform a user profile into actionable career insights. Instead of simply suggesting a job title, CareerPath AI provides career match scores, identifies skill gaps, and generates personalized learning roadmaps to help users move toward their career goals.
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge\&logo=python\&logoColor=white)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)](https://fastapi.tiangolo.com/)
-[![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge\&logo=next.js\&logoColor=white)](https://nextjs.org/)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge\&logo=tensorflow\&logoColor=white)](https://www.tensorflow.org/)
-[![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge\&logo=firebase\&logoColor=black)](https://firebase.google.com/)
+This project demonstrates the integration of Machine Learning, Generative AI, backend APIs, modern frontend development, authentication, and cloud-based data storage in one complete application.
 
-</div>
+## Key Highlights
 
----
-
-## 📌 Overview
-
-**CareerPath AI** is an intelligent career guidance platform that analyzes a user's **skills, interests, education, and experience** to recommend suitable technology career paths.
-
-The platform combines **Machine Learning, Generative AI, and Full-Stack Development** to provide personalized career recommendations, skill-gap analysis, and structured learning roadmaps.
-
-### 🎯 What Problem Does It Solve?
-
-Choosing the right career can be difficult because users often don't know:
-
-* Which careers match their current skills
-* Which skills they are missing
-* How to build a structured learning path
-
-CareerPath AI turns this information into **personalized, actionable career guidance**.
+* Machine Learning-based career recommendation system
+* Personalized career match scores
+* Skill-gap analysis based on career requirements
+* AI-generated learning roadmaps
+* Interactive user dashboard and progress tracking
+* Secure authentication and persistent user data
+* Full-stack architecture with separate frontend and backend services
 
 ---
 
-## ✨ Key Features
+## Screenshots
 
-🧠 **AI Career Recommendations**
-Machine learning-based career matching with personalized match scores.
+### Landing Page
 
-🎯 **Skill-Gap Analysis**
-Identifies missing and weak skills required for a selected career.
+![CareerPath AI Landing Page](./screenshots/landing-page.png)
 
-🗺️ **Personalized Learning Roadmaps**
-AI-generated structured learning plans to help users achieve career goals.
+### Profile and Skill Assessment
 
-📊 **Progress Dashboard**
-Track learning milestones, skill development, and progress.
+![Profile Page](./screenshots/profile-page.png)
 
-🔐 **Authentication & Data Storage**
-Firebase Authentication and Firestore for secure user management and persistent data.
+### Career Recommendations
+
+![Career Recommendations](./screenshots/recommendations.png)
+
+### Skill-Gap Analysis
+
+![Skill Gap Analysis](./screenshots/skill-gap.png)
+
+### Personalized Learning Roadmap
+
+![Learning Roadmap](./screenshots/roadmap.png)
+
+### Progress Dashboard
+
+![Progress Dashboard](./screenshots/dashboard.png)
 
 ---
 
-## 🏗️ Architecture
+## How It Works
+
+1. The user creates a profile by providing skills, interests, education, and experience information.
+
+2. The backend processes the profile and prepares the input features for the recommendation model.
+
+3. The TensorFlow model analyzes the profile and predicts suitable career paths.
+
+4. The platform returns personalized career recommendations with match scores.
+
+5. Career requirements are compared with the user's current skills to identify skill gaps.
+
+6. AI generates a structured learning roadmap to help the user develop the required skills.
+
+7. User progress and learning history are stored securely using Firebase.
+
+---
+
+## System Architecture
 
 ```text
-                 ┌─────────────────────┐
-                 │   Next.js Frontend  │
-                 │   React + Tailwind  │
-                 └──────────┬──────────┘
-                            │
-                            ▼
-                 ┌─────────────────────┐
-                 │   FastAPI Backend   │
-                 │  API + Services     │
-                 └──────────┬──────────┘
-                            │
-             ┌──────────────┼──────────────┐
-             ▼              ▼              ▼
-      ┌────────────┐ ┌────────────┐ ┌────────────┐
-      │ TensorFlow │ │  Groq AI   │ │  Firebase  │
-      │ ML Model   │ │  Roadmaps  │ │ Firestore  │
-      └────────────┘ └────────────┘ └────────────┘
+                         Next.js Frontend
+                   React and Tailwind CSS
+                                |
+                                |
+                                v
+                         FastAPI Backend
+                    APIs and Business Logic
+                                |
+               -------------------------------
+               |              |              |
+               v              v              v
+        TensorFlow Model    Groq AI       Firebase
+        Career Matching     Roadmaps      Auth and DB
+```
+
+The frontend provides the user interface, while FastAPI manages application logic and communication with the AI and Machine Learning services. Firebase handles authentication and persistent user data.
+
+---
+
+## Technology Stack
+
+| Category         | Technologies                             |
+| ---------------- | ---------------------------------------- |
+| Frontend         | Next.js, React, TypeScript, Tailwind CSS |
+| Backend          | Python, FastAPI                          |
+| Machine Learning | TensorFlow, NumPy, Pandas                |
+| AI Integration   | Groq API                                 |
+| Database         | Firebase Firestore                       |
+| Authentication   | Firebase Authentication                  |
+| Deployment       | Vercel, Render                           |
+
+---
+
+## Machine Learning Model
+
+The career recommendation engine is built using TensorFlow and analyzes user profile features to predict suitable technology career paths.
+
+The model considers information such as:
+
+* Technical skills and proficiency levels
+* Career interests
+* Educational background
+* Experience level
+* Skill relationships between different career domains
+
+The model supports recommendations across multiple technology roles, including:
+
+* AI Engineer
+* Machine Learning Engineer
+* Data Scientist
+* Data Analyst
+* Backend Developer
+* Full Stack Developer
+* Frontend Developer
+* Cloud Engineer
+* DevOps Engineer
+* Cybersecurity Analyst
+* Computer Vision Engineer
+* NLP Engineer
+* Data Engineer
+* Software Engineer
+* AI Product Engineer
+
+### Model Performance
+
+| Metric              | Result |
+| ------------------- | ------ |
+| Training Accuracy   | 87%    |
+| Validation Accuracy | 85%    |
+| Top-3 Accuracy      | 92%    |
+| Training Samples    | 5,000+ |
+| Career Classes      | 15+    |
+
+---
+
+## Project Structure
+
+```text
+careerpath-ai/
+
+├── frontend/
+│   ├── app/
+│   ├── components/
+│   ├── services/
+│   └── types/
+│
+├── backend/
+│   ├── routes/
+│   ├── services/
+│   ├── models/
+│   ├── ml_integration/
+│   └── data/
+│
+├── ml/
+│   ├── dataset/
+│   ├── train.py
+│   ├── evaluate.py
+│   └── saved_model/
+│
+├── screenshots/
+│
+├── README.md
+└── LICENSE
 ```
 
 ---
 
-## 🛠️ Tech Stack
-
-| Category             | Technologies                             |
-| -------------------- | ---------------------------------------- |
-| **Frontend**         | Next.js, React, TypeScript, Tailwind CSS |
-| **Backend**          | Python, FastAPI                          |
-| **Machine Learning** | TensorFlow, NumPy, Pandas                |
-| **AI**               | Groq API                                 |
-| **Database**         | Firebase Firestore                       |
-| **Authentication**   | Firebase Auth                            |
-| **Deployment**       | Vercel, Render                           |
-
----
-
-## 🤖 Machine Learning Model
-
-The recommendation engine uses a **TensorFlow neural network** trained to map user profiles to suitable technology career paths.
-
-### Model Highlights
-
-* 🧠 15+ Career Categories
-* 📊 75+ Profile Features
-* 📁 5,000+ Generated Training Samples
-* 🎯 Top-3 Recommendation Accuracy: **92%**
-* 📈 Validation Accuracy: **85%**
-
-### Supported Career Paths
-
-`AI Engineer` • `Machine Learning Engineer` • `Data Scientist` • `Data Analyst` • `Full Stack Developer` • `Backend Developer` • `Frontend Developer` • `Cloud Engineer` • `DevOps Engineer` • `Cybersecurity Analyst` • `Computer Vision Engineer` • `NLP Engineer`
-
----
-
-## 📸 Screenshots
-
-> Project screenshots will be added here.
-
-### 🏠 Landing Page
-
-![Landing Page](https://via.placeholder.com/1000x500/1E293B/FFFFFF?text=CareerPath+AI+Landing+Page)
-
-### 🎯 Career Recommendations
-
-![Recommendations](https://via.placeholder.com/1000x500/1E293B/FFFFFF?text=Career+Recommendations)
-
-### 📊 Learning Dashboard
-
-![Dashboard](https://via.placeholder.com/1000x500/1E293B/FFFFFF?text=Learning+Dashboard)
-
----
-
-## 🚀 Getting Started
+## Installation
 
 ### Clone the Repository
 
@@ -136,15 +185,41 @@ git clone https://github.com/yourusername/careerpath-ai.git
 cd careerpath-ai
 ```
 
-### Backend
+### Backend Setup
 
 ```bash
 cd backend
+
+python -m venv venv
+```
+
+Activate the virtual environment.
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+Install dependencies:
+
+```bash
 pip install -r requirements.txt
+```
+
+Run the backend:
+
+```bash
 python main.py
 ```
 
-### Frontend
+The backend will run at:
+
+```text
+http://localhost:8000
+```
+
+### Frontend Setup
 
 ```bash
 cd frontend
@@ -152,39 +227,81 @@ npm install
 npm run dev
 ```
 
-Open:
+The frontend will run at:
 
 ```text
-Frontend → http://localhost:3000
-Backend  → http://localhost:8000
-API Docs → http://localhost:8000/docs
+http://localhost:3000
+```
+
+API documentation is available at:
+
+```text
+http://localhost:8000/docs
 ```
 
 ---
 
-## 🔮 Future Improvements
+## Environment Variables
 
-* Real-world job market integration
+Create a `.env` file inside the backend directory:
+
+```env
+GROQ_API_KEY=your_api_key
+ENVIRONMENT=development
+PORT=8000
+ALLOWED_ORIGINS=http://localhost:3000
+```
+
+Create a `.env.local` file inside the frontend directory:
+
+```env
+NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
+
+NEXT_PUBLIC_FIREBASE_API_KEY=your_api_key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your_project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+```
+
+---
+
+## API Endpoints
+
+| Method | Endpoint                     | Description                     |
+| ------ | ---------------------------- | ------------------------------- |
+| GET    | `/api/v1/health`             | Check API status                |
+| GET    | `/api/v1/careers`            | Get available careers           |
+| POST   | `/api/v1/recommend`          | Generate career recommendations |
+| POST   | `/api/v1/skill-gap`          | Analyze skill gaps              |
+| POST   | `/api/v1/roadmap`            | Generate learning roadmap       |
+| GET    | `/api/v1/progress/{user_id}` | Get learning progress           |
+| PUT    | `/api/v1/profile/{user_id}`  | Update user profile             |
+
+---
+
+## Future Improvements
+
+* Integration with real-world job market data
 * LinkedIn profile analysis
-* Resume analysis and recommendations
-* More career categories
-* AI interview preparation
+* Resume analysis
+* Additional career categories
+* AI-powered interview preparation
 * Personalized course recommendations
+* Mobile application
 
 ---
 
-## 👩‍💻 Author
+## Limitations
 
-**Aiman Wazir**
-
-Aspiring Full Stack & AI Developer
+The current recommendation model is trained using synthetic data and is designed primarily as a demonstration of an AI-powered career recommendation workflow. Future versions can be improved by incorporating real-world user feedback, job market datasets, and larger career datasets.
 
 ---
 
-<div align="center">
+## Author
 
-### ⭐ If you found this project interesting, consider giving it a star!
+Aiman Wazir
 
-**Built with ❤️ using Machine Learning, Generative AI, FastAPI, Next.js, and Firebase.**
+Aspiring Full Stack and AI Developer
 
-</div>
+## License
+
+This project is licensed under the MIT License.
