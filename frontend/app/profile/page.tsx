@@ -165,12 +165,12 @@ export default function ProfilePage() {
           {/* Skills */}
           <div className="card">
             <h2 className="text-base font-semibold text-primary-900 mb-2">Technical Skills</h2>
-            <p className="text-sm text-primary-500 mb-4">Rate your proficiency from 1 (Beginner) to 5 (Expert)</p>
+            <p className="text-sm text-primary-500 mb-4">Rate your proficiency from 0 (Beginner) to 5 (Expert)</p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
               {SKILLS.map(skill => (
                 <div key={skill} className="flex items-center gap-3 group">
-                  <span className="text-sm font-medium text-primary-700 w-28 truncate">{skill}</span>
+                  <span className="text-sm font-medium text-primary-700 w-32 truncate">{skill}</span>
                   <input
                     type="range"
                     min="0"

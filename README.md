@@ -24,11 +24,11 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 
 ### Landing Page
 
-![NextStep Landing Page](./screenshots/landing-page.png)
+![NextStep Landing Page](./screenshots/landingpage.png)
 
 ### Profile and Skill Assessment
 
-![Profile Page](./screenshots/profile-page.png)
+![Profile Page](./screenshots/profile-page.png)`
 
 ### Career Recommendations
 
