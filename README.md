@@ -1,8 +1,8 @@
-# CareerPath AI
+# NextStep
 
 ## AI-Powered Career Recommendation and Learning Platform
 
-CareerPath AI is a full-stack AI-powered platform designed to help students, interns, and aspiring professionals identify technology career paths that align with their skills, interests, education, and experience.
+NextStep is a full-stack AI-powered platform designed to help students, interns, and aspiring professionals identify technology career paths that align with their skills, interests, education, and experience.
 
 The platform combines a TensorFlow-based recommendation model with AI-powered guidance to transform a user profile into actionable career insights. Instead of simply suggesting a job title, CareerPath AI provides career match scores, identifies skill gaps, and generates personalized learning roadmaps to help users move toward their career goals.
 
@@ -24,7 +24,7 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 
 ### Landing Page
 
-![CareerPath AI Landing Page](./screenshots/landing-page.png)
+![NextStep Landing Page](./screenshots/landing-page.png)
 
 ### Profile and Skill Assessment
 
