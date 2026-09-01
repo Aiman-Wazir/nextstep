@@ -31,8 +31,9 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 ### Profile and Skill Assessment
 
 ![Profile Page](./screenshots/profile-page.png)
-![Profile Page](./screenshots/profile-page3.png)
 ![Profile Page](./screenshots/profile-page2.png)
+
+![Profile Page](./screenshots/profile-page3.png)
 
 
 
@@ -132,17 +133,7 @@ The model supports recommendations across multiple technology roles, including:
 * Software Engineer
 * AI Product Engineer
 
-### Model Performance
 
-| Metric              | Result |
-| ------------------- | ------ |
-| Training Accuracy   | 87%    |
-| Validation Accuracy | 85%    |
-| Top-3 Accuracy      | 92%    |
-| Training Samples    | 5,000+ |
-| Career Classes      | 15+    |
-
----
 
 ## Project Structure
 
@@ -181,8 +172,7 @@ careerpath-ai/
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/careerpath-ai.git
-cd careerpath-ai
+git clone https://github.com/Aiman-Wazir/nextstep
 ```
 
 ### Backend Setup
