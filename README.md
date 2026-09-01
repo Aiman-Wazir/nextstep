@@ -290,7 +290,7 @@ The current recommendation model is trained using synthetic data and is designed
 
 Aiman Wazir
 
-Aspiring Full Stack and AI Developer
+Full Stack and AI Developer
 
 ## License
 
