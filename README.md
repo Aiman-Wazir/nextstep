@@ -31,7 +31,7 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 ### Profile and Skill Assessment
 
 ![Profile Page](./screenshots/profile-page.png)`
-![Profile Page](./screenshots/profile-page2.png)`
+![Profile Page](./screenshots/profile-page.png)`
 ![Profile Page](./screenshots/profile-page3.png)`
 
 ### Career Recommendations
