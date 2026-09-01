@@ -26,25 +26,21 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 
 ![NextStep Landing Page](./screenshots/landingpage.png)
 
+![NextStep Landing Page](./screenshots/landingpage2.png)
+
 ### Profile and Skill Assessment
 
 ![Profile Page](./screenshots/profile-page.png)`
+![Profile Page](./screenshots/profile-page2.png)`
+![Profile Page](./screenshots/profile-page3.png)`
 
 ### Career Recommendations
 
-![Career Recommendations](./screenshots/recommendations.png)
+![Career Recommendations](./screenshots/learning-page.png)
+![Career Recommendations](./screenshots/learning-page2.png)
 
-### Skill-Gap Analysis
+![Career Recommendations](./screenshots/learning-path,png.png)
 
-![Skill Gap Analysis](./screenshots/skill-gap.png)
-
-### Personalized Learning Roadmap
-
-![Learning Roadmap](./screenshots/roadmap.png)
-
-### Progress Dashboard
-
-![Progress Dashboard](./screenshots/dashboard.png)
 
 ---
 
