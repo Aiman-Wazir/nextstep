@@ -39,7 +39,7 @@ This project demonstrates the integration of Machine Learning, Generative AI, ba
 ![Career Recommendations](./screenshots/learning-page.png)
 ![Career Recommendations](./screenshots/learning-page2.png)
 
-![Career Recommendations](./screenshots/learning-page3.png)
+
 
 ### recommended roles
 
